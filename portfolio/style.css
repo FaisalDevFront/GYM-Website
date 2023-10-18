@@ -1,0 +1,67 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between the image and description */
+}
+
+.about-image img {
+    max-width: 70%;
+    height: auto;
+}
+
+.about-description {
+    flex: 1; /* Allow the description box to take up remaining space */
+}
+ 
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 150px;
+}
+
+nav ul li {
+    margin:none;
+    margin-right: 50px;
+    /* border-right: 25; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    
+    /* padding-right: 50px; */
+    /* margin-right: 100px; */
+    /* display: flex; */
+    /* text-align: center;
+    justify-content: center; */
+}
+
+section {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
